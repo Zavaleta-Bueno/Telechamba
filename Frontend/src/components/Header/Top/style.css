@@ -1,0 +1,29 @@
+.slide {
+  background-image: url("img/slide_1.jpg");
+  background-size: cover;
+  height: 85vh;
+  position: relative;
+  color: white;
+}
+
+.slide::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: .4;
+}
+
+.como-funciona p {
+  color: #949494;
+}
+.como-funciona h4 {
+  color: #4b4b4b;
+}
+
+.informacion h4{
+  color: #1c3f7f;
+}
